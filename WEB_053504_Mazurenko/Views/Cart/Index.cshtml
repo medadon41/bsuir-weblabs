@@ -1,0 +1,41 @@
+﻿@using WEB_053504_Mazurenko.Misc
+@model Dictionary<int, CartItem>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Корзина</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>
+                Количество
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="~/Images/@item.Value.Cake.Image" width="100px" alt="@item.Value.Cake.Image">
+                </td>
+                <td>
+                    @item.Value.Cake.Name
+                </td>
+                <td>
+                    @item.Value.Quantity
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-controller="Cart"asp-route-id="@item.Key" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,10 @@
+﻿@using WEB_053504_Mazurenko.Misc
+@model MenuItem
+
+@{
+    var cart = ViewData["Cart"] as Cart;
+}
+
+<a class="nav-link ml-auto" asp-controller="@Model.Controller" asp-action="@Model.Action">
+    @cart.Price руб <i class="fas fa-shopping-cart nav-color"></i> (@cart.Count)
+</a>

@@ -1,0 +1,12 @@
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\bin\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.deps.json
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\bin\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.dll
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\bin\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.pdb
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.csproj.AssemblyReference.cache
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.AssemblyInfoInputs.cache
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.AssemblyInfo.cs
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.dll
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\refint\WEB_053504_Mazurenko.Blazor.Shared.dll
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\WEB_053504_Mazurenko.Blazor.Shared.pdb
+C:\Users\mddn\source\repos\WEB_053504_Mazurenko.Blazor\Shared\obj\Debug\net6.0\ref\WEB_053504_Mazurenko.Blazor.Shared.dll

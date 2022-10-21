@@ -1,0 +1,75 @@
+2022-10-14 01:41:34.383 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 01:41:34.391 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 01:41:34.393 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 01:41:34.393 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 01:41:34.393 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 01:41:37.113 +03:00 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-10-14 01:41:37.115 +03:00 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-10-14 01:41:37.167 +03:00 [Information] Writing to log file with INFORMATION severity level.
+2022-10-14 10:15:12.262 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:15:12.273 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:15:12.275 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:15:12.276 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:15:12.276 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:15:57.086 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:15:57.091 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:15:57.094 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:15:57.094 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:15:57.094 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:16:17.513 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:16:17.520 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:16:17.523 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:16:17.523 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:16:17.523 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:16:39.963 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:16:39.969 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:16:39.971 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:16:39.971 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:16:39.971 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:17:46.682 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:17:46.688 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:17:46.690 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:17:46.690 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:17:46.690 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:17:51.408 +03:00 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-10-14 10:17:51.409 +03:00 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-10-14 10:17:51.467 +03:00 [Information] Writing to log file with INFORMATION severity level.
+2022-10-14 10:18:03.809 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:18:03.815 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:18:03.817 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:18:03.817 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:18:03.817 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:18:19.763 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:18:19.773 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:18:19.776 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:18:19.776 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:18:19.776 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:21:06.367 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:21:06.384 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:21:06.387 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:21:06.387 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:21:06.387 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:27:17.646 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 10:27:17.655 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 10:27:17.657 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 10:27:17.657 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 10:27:17.657 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 10:27:18.219 +03:00 [Information] 14.10.2022 10:27:18 [INFO] Request / returns status code 200
+2022-10-14 10:27:18.413 +03:00 [Information] 14.10.2022 10:27:18 [INFO] Request /favicon.ico returns status code 200
+2022-10-14 14:03:42.262 +03:00 [Information] Now listening on: "https://localhost:7176"
+2022-10-14 14:03:42.286 +03:00 [Information] Now listening on: "http://localhost:5176"
+2022-10-14 14:03:42.291 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-10-14 14:03:42.292 +03:00 [Information] Hosting environment: "Development"
+2022-10-14 14:03:42.292 +03:00 [Information] Content root path: "C:\Users\mddn\source\repos\WEB_053504_Mazurenko\"
+2022-10-14 14:03:50.044 +03:00 [Information] 14.10.2022 14:03:50 [INFO] Request / returns status code 200
+2022-10-14 14:03:52.168 +03:00 [Information] 14.10.2022 14:03:52 [INFO] Request /css/site.css?v=c4NzDmbofQ62yOflDm4Z_b9epRLmZgim_ZeM0XiWplQ returns status code 200
+2022-10-14 14:03:52.168 +03:00 [Information] 14.10.2022 14:03:52 [INFO] Request /lib/font-awesome/css/all.css returns status code 200
+2022-10-14 14:03:52.170 +03:00 [Information] 14.10.2022 14:03:52 [INFO] Request /js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 returns status code 200
+2022-10-14 14:03:52.462 +03:00 [Information] 14.10.2022 14:03:52 [INFO] Request /Image/GetAvatar returns status code 200
+2022-10-14 14:03:53.538 +03:00 [Information] 14.10.2022 14:03:53 [INFO] Request /lib/font-awesome/webfonts/fa-solid-900.woff2 returns status code 200
+2022-10-14 14:03:53.888 +03:00 [Information] 14.10.2022 14:03:53 [INFO] Request /favicon.ico returns status code 200
+2022-10-14 14:03:55.769 +03:00 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-10-14 14:03:55.771 +03:00 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-10-14 14:03:55.945 +03:00 [Information] Writing to log file with INFORMATION severity level.
+2022-10-14 14:03:56.006 +03:00 [Information] 14.10.2022 14:03:56 [INFO] Request /Catalog returns status code 200
+2022-10-14 14:03:56.662 +03:00 [Information] 14.10.2022 14:03:56 [INFO] Request /Image/GetAvatar returns status code 200

@@ -1,0 +1,49 @@
+﻿@page
+@model WEB_053504_Mazurenko.Areas.Admin.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-outline-success"><i class="fa-solid fa-circle-plus"></i> Добавить</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cake[0].Name)
+            </th>
+            <th>
+                Group
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Cake) {
+        <tr>
+            <td>
+                <img src="~/Images/@item.Image" width="100px" alt="@item.Image">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Group.Name)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-outline-info"><i class="fa-solid fa-pen-to-square"></i></a>
+                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-outline-success"><i class="fa-solid fa-eye"></i></a>
+                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

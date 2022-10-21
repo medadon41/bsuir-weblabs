@@ -1,0 +1,34 @@
+﻿@model ListViewModel<Cake>
+
+@{
+    ViewData["Title"] = "Каталог";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var categories = ViewData["Groups"] as IEnumerable<CakeGroup>;
+    int currentGroup = (int)ViewData["CurrentGroup"];
+
+    var text = currentGroup != 0 ? categories.FirstOrDefault(g => g.Id == currentGroup)?.Name : "Все";
+}
+
+@{
+    var request = ViewContext.HttpContext.Request;
+    var returnUrl = request.Path + request.QueryString.ToUriComponent();
+}
+<div class="row">
+    <div class="col-2">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                @text
+            </button>
+            <ul class="dropdown-menu">
+                @foreach (var group in categories)
+                {
+                    <li><a class="dropdown-item" asp-route-group="@group.Id">@group.Name</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="col-10" id="list">
+        <partial name="_ListPartial" model="@Model" />
+    </div>
+</div>

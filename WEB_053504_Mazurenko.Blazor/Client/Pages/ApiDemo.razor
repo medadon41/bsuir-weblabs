@@ -1,0 +1,46 @@
+﻿@page "/apidemo"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using WEB_053504_Mazurenko.Blazor.Client.Models
+@inject HttpClient client
+
+<h3>ApiDemo</h3>
+
+<div class="container"> 
+    @if (Cakes != null)
+    {
+        <CakesList @bind-Cakes="Cakes" SelectedCakeChanged="ShowDetails"></CakesList>
+        <CakeDetails @bind-Cake="SelectedCake"></CakeDetails>
+    }
+    else 
+    {
+        <p>Loading data...</p>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public DetailsViewModel SelectedCake { get; set; }
+
+    [Parameter]
+    public IEnumerable<ListViewModel> Cakes { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        string apiBaseAddress = "/api/cakes";
+        var response = await client.GetAsync(apiBaseAddress);
+        if (response != null)
+        {
+            using var responseStream = await response.Content.ReadAsStreamAsync();
+            Cakes = await JsonSerializer
+                .DeserializeAsync<IEnumerable<ListViewModel>>(responseStream,
+                        new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+    }
+
+    private async Task ShowDetails(int id)
+    {
+        string apiBaseAddress = $"/api/cakes/{id}";
+        SelectedCake = await client.GetFromJsonAsync<DetailsViewModel>(apiBaseAddress);
+    }
+}

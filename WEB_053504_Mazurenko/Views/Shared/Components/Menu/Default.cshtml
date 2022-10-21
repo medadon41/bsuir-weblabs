@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WEB_053504_Mazurenko.Models.MenuItem>
+
+<ul class="navbar-nav flex-grow-1">
+    @foreach (var item in Model) {
+        @if (item.IsPage) {
+            <li class="nav-item">
+                <a class="nav-link @item.Active" asp-area="@item.Area" asp-page="@item.Page">@item.Text</a>
+            </li>
+        }
+        else 
+        {
+            <li class="nav-item">
+                <a class="nav-link @item.Active" asp-controller="@item.Controller" asp-action="@item.Action">@item.Text</a>
+            </li>
+        }
+    }
+</ul>

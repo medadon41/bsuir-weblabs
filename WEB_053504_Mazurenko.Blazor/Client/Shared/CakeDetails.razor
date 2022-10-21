@@ -1,0 +1,36 @@
+﻿@using WEB_053504_Mazurenko.Blazor.Client.Models
+
+@if (Cake != null)
+{
+    <div class="card" style="width: 18rem;">
+        <img src=@imageSrc class="card-img-top" alt=@Cake.Name>
+        <div class="card-body">
+            <h5 class="card-title">@Cake.Name</h5>
+            <p class="card-text">@Cake.Description</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">@Cake.Price руб</li>
+        </ul>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public DetailsViewModel Cake { get; set; }
+
+    [Parameter]
+    public EventCallback<DetailsViewModel> CakeChanged { get; set; }
+
+    //private Task OnCakeChanged()
+    //{
+    //    return CakeChanged.InvokeAsync();
+    //}
+
+    private string imageSrc 
+    {
+        get 
+        {
+            return $"/Images/{Cake.Image}";
+        }
+    }
+}

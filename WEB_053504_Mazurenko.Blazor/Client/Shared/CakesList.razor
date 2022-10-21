@@ -1,0 +1,22 @@
+﻿@using WEB_053504_Mazurenko.Blazor.Client.Models
+
+<div class="list-group">
+    @foreach(var item in Cakes) {
+        <button type="button" class="list-group-item list-group-item-action" @onclick="e=>OnSelectedObjectChanged(item.CakeId)">@item.CakeName</button>
+    }
+</div>    
+
+@code {
+    [Parameter]
+    public IEnumerable<ListViewModel> Cakes { get; set; }
+
+    [Parameter]
+    public EventCallback<IEnumerable<ListViewModel>> CakesChanged { get; set; }
+
+    [Parameter]
+    public EventCallback<int> SelectedCakeChanged { get; set; }
+
+    private async Task OnSelectedObjectChanged(int id) {
+        await SelectedCakeChanged.InvokeAsync(id);
+    }
+}
